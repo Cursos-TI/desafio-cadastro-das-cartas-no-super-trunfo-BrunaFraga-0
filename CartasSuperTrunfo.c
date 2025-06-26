@@ -7,6 +7,27 @@
 //Teste larissa
 
 int main() {
+    printf("-----------------------------------\n");
+    printf("   Desafio Super Trunfo - Países   \n");
+    printf("        Cadastro das Cartas        \n");
+    printf("-----------------------------------\n");
+    
+    //Cadastro Carta 1 (C1)
+    printf("Carta 1\n");
+    printf("-------\n");
+
+    // Declarando as variáveis para a C1
+    char estado_C1, codigo_C1[10], cidade_C1[50];
+    int populacao_C1, p_turistico_C1;
+    float area_C1, pib_C1; 
+
+    // Solicitando ao usuário insira as informações para cadastrar a C1
+    
+
+
+    // Imprimindo as informações cadastradas para C1
+
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
