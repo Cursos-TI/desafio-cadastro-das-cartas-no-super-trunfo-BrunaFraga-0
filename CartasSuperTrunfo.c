@@ -60,5 +60,23 @@ int main() {
     int populacao_C2, p_turistico_C2;
     float area_C2, pib_C2; 
 
+    // Entrada de dados C2
+    // Solicitando ao usuário que insira as informações para cadastro da C2
+    printf("Insira o Estado (uma letra entre A e H): \n");
+    scanf("%c", &estado_C2);
+    printf("Insira o código da carta (a letra do Estado + um número de 01 a 04): \n");
+    scanf("%s", &codigo_C2);
+    printf("Insira o nome da cidade: \n");
+    scanf("%s", &cidade_C2);
+    printf("Insira a população da cidade: \n");
+    scanf("%d", &populacao_C2);
+    printf("Insira a área da cidade (em km²): \n");
+    scanf("%f", &area_C2);
+    printf("Insira o PIB da cidade: \n");
+    scanf("%f", &pib_C2);
+    printf("Insira o número de pontos turísticos da cidade: \n");
+    scanf("%d", &p_turistico_C2);
+    printf("--------------------\n");
+
     return 0;
 }
