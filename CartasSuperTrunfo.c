@@ -49,6 +49,16 @@ int main() {
     printf("Área: %.3f km²\n", area_C1);
     printf("PIB: R$%.2f\n", pib_C1);
     printf("Número de pontos turísticos: %d\n", p_turistico_C1);
-    printf("--------------------");
+    printf("--------------------\n");
+
+    //Cadastramento Carta 2 (C2)
+    printf("Carta 2\n");
+    printf("--------------------\n");
+
+    // Declarando as variáveis para a C2
+    char estado_C2, codigo_C2[10], cidade_C2[50];
+    int populacao_C2, p_turistico_C2;
+    float area_C2, pib_C2; 
+
     return 0;
 }
