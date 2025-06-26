@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
-
 int main() {
     printf("-----------------------------------\n");
     printf("   Desafio Super Trunfo - Países   \n");
@@ -23,9 +17,9 @@ int main() {
 
     // Entrada de dados C1
     // Solicitando ao usuário que insira as informações para cadastro da C1
-    printf("Insira o Estado (uma letra entre A e H): \n");
+    printf("Insira o Estado (uma letra entre A e H - ex: A): \n");
     scanf("%c", &estado_C1);
-    printf("Insira o código da carta (a letra do Estado + um número de 01 a 04): \n");
+    printf("Insira o código da carta (a letra do Estado + um número de 01 a 04 - Ex: A01): \n");
     scanf("%s", &codigo_C1);
     printf("Insira o nome da cidade: \n");
     scanf("%s", &cidade_C1);
@@ -64,7 +58,7 @@ int main() {
     // Entrada de dados C2
     // Solicitando ao usuário que insira as informações para cadastro da C2
     printf("Insira o Estado (uma letra entre A e H): \n");
-    scanf(" %c", &estado_C2); //O espaço antes de % é porque o programa está lendo diretamente a próxima linha. Foi a forma que encontrei de resolver.
+    scanf(" %c", &estado_C2); //O espaço antes de % é porque o programa está lendo diretamente a próxima linha. Foi a forma que encontrei de resolver, pequisando na internet.
     printf("Insira o código da carta (a letra do Estado + um número de 01 a 04): \n");
     scanf("%s", &codigo_C2);
     printf("Insira o nome da cidade: \n");
