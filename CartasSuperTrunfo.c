@@ -78,5 +78,17 @@ int main() {
     scanf("%d", &p_turistico_C2);
     printf("--------------------\n");
 
+    // Saída de dados C2
+    // Imprimindo as informações cadastradas para C2
+    printf("Carta 2\n");
+    printf("Estado: %c\n", estado_C2);
+    printf("Códido: %s\n", codigo_C2);
+    printf("Nome da cidade: %s\n", cidade_C2);
+    printf("População: %d habitantes\n", populacao_C2);
+    printf("Área: %.3f km²\n", area_C2);
+    printf("PIB: R$%.2f\n", pib_C2);
+    printf("Número de pontos turísticos: %d\n", p_turistico_C2);
+    printf("--------------------");
+    
     return 0;
 }
