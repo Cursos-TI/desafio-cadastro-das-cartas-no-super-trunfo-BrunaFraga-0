@@ -61,9 +61,10 @@ int main() {
     printf("--------------------\n");
 
     // Declarando as variáveis para a C2
+        // Inclusão de 2 novas variáveis para as 2 novas propriedades na C2 (Densidade Populacional e Pib per Capita)
     char estado_C2, codigo_C2[10], cidade_C2[50];
     int populacao_C2, p_turistico_C2;
-    float area_C2, pib_C2; 
+    float area_C2, pib_C2, densidade_pop_C2, pib_percapita_C2; // Novas variáveis
 
     // Entrada de dados C2
     // Solicitando ao usuário que insira as informações para cadastro da C2
