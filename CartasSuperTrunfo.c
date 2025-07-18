@@ -10,10 +10,11 @@ int main() {
     printf("Carta 1\n");
     printf("--------------------\n");
 
-    // Declarando as variáveis para a C1
+    // Declarando as variáveis para a C1 
+        // Inclusão de 2 novas variáveis para as 2 novas propriedades na C1 (Densidade Populacional e Pib per Capita)
     char estado_C1, codigo_C1[10], cidade_C1[50];
     int populacao_C1, p_turistico_C1;
-    float area_C1, pib_C1; 
+    float area_C1, pib_C1, densidade_pop_C1, pip_percapita_C1; // Novas variáveis
 
     // Entrada de dados C1
     // Solicitando ao usuário que insira as informações para cadastro da C1
