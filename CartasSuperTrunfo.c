@@ -14,7 +14,7 @@ int main() {
         // Inclusão de 2 novas variáveis para as 2 novas propriedades na C1 (Densidade Populacional e Pib per Capita)
     char estado_C1, codigo_C1[10], cidade_C1[50];
     int populacao_C1, p_turistico_C1;
-    float area_C1, pib_C1, densidade_pop_C1, pip_percapita_C1; // Novas variáveis
+    float area_C1, pib_C1, densidade_pop_C1, pib_percapita_C1; // Novas variáveis
 
     // Entrada de dados C1
     // Solicitando ao usuário que insira as informações para cadastro da C1
@@ -38,7 +38,7 @@ int main() {
         /* As informações necessárias para calcular a densidade populacional e o pib per capita já foram inseridas
         pelo usuário na entrada de dados C1*/
     densidade_pop_C1 = (float)populacao_C1 / area_C1; //densidade populacional = população da cidade / área da cidade
-    pip_percapita_C1 = pib_C1 / (float)populacao_C1; //pib per capita = pib da cidade / população da cidade  
+    pib_percapita_C1 = pib_C1 / (float)populacao_C1; //pib per capita = pib da cidade / população da cidade  
 
     // Saída de dados C1
     // Imprimindo as informações cadastradas para C1
@@ -50,6 +50,9 @@ int main() {
     printf("Área: %.3f km²\n", area_C1);
     printf("PIB: R$ %.2f\n", pib_C1);
     printf("Número de pontos turísticos: %d\n", p_turistico_C1);
+        //Incluindo a impressão das 2 novas propriedades da C1 (Densidade Populacional e Pib per Capita)
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade_pop_C1);
+    printf("PIB per Capita: R$ %.2f\n", pib_percapita_C1);
     printf("---------------------------------\n");
     printf("---------------------------------\n");
 
