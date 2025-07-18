@@ -100,6 +100,9 @@ int main() {
     printf("Área: %.3f km²\n", area_C2);
     printf("PIB: R$ %.2f\n", pib_C2);
     printf("Número de pontos turísticos: %d\n", p_turistico_C2);
+         //Incluindo a impressão das 2 novas propriedades da C2 (Densidade Populacional e Pib per Capita)
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade_pop_C2);
+    printf("PIB per Capita: R$ %.2f\n", pib_percapita_C2);
     printf("--------------------------------");
     
     return 0;
