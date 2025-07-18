@@ -84,6 +84,12 @@ int main() {
     scanf("%d", &p_turistico_C2);
     printf("--------------------\n");
 
+        // Operações para atribuir os valores das novas variáveis da C2 (densidade_pop_C2 e pib_percapita_C2)
+        /* As informações necessárias para calcular a densidade populacional e o pib per capita já foram inseridas
+        pelo usuário na entrada de dados C2*/
+    densidade_pop_C2 = (float)populacao_C2 / area_C2; //densidade populacional = população da cidade / área da cidade
+    pib_percapita_C2 = pib_C2/ (float)populacao_C2; //pib per capita = pib da cidade / população da cidade
+
     // Saída de dados C2
     // Imprimindo as informações cadastradas para C2
     printf("Carta 2\n\n");
