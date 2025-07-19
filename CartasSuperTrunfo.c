@@ -56,9 +56,11 @@ int main() {
     printf("Área: %.3f km²\n", area_C1);
     printf("PIB: %.2f bilhões de reais\n", pib_C1 / 1000000000); // Ajuste saída para aparecer 'bilhões de reais'. Mas e se o usuário cadastrar uma cidade que tenha trilhões de reais em PIB ou millhões...?
     printf("Número de pontos turísticos: %d\n", p_turistico_C1);
-    //Incluindo a impressão das 2 novas propriedades da C1 (Densidade Populacional e Pib per Capita)
+    //Inclusão da impressão das 2 novas propriedades da C1 (Densidade Populacional e Pib per Capita)
     printf("Densidade Populacional: %.2f hab/km²\n", densidade_pop_C1);
     printf("PIB per Capita: R$ %.2f\n", pib_percapita_C1);
+        //Inclusão da impressão da nova variável da C1 (Super Poder)
+    printf("Super Poder: %.2f\n", super_poder_C1);
     printf("---------------------------------\n");
     printf("---------------------------------\n");
 
@@ -115,7 +117,9 @@ int main() {
     //Incluindo a impressão das 2 novas propriedades da C2 (Densidade Populacional e Pib per Capita)
     printf("Densidade Populacional: %.2f hab/km²\n", densidade_pop_C2);
     printf("PIB per Capita: R$ %.2f\n", pib_percapita_C2);
-    printf("--------------------------------");
+        //Inclusão da impressão da nova variável da C2 (Super Poder)
+    printf("Super Poder: %.2f\n", super_poder_C2); 
+    printf("--------------------------------\n");
     
     return 0;
 }
