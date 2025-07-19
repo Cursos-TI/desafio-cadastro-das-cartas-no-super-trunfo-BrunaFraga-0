@@ -42,6 +42,10 @@ int main() {
     densidade_pop_C1 = (float)populacao_C1 / area_C1; //densidade populacional = população da cidade / área da cidade
     pib_percapita_C1 = pib_C1 / (float)populacao_C1; //pib per capita = pib da cidade / população da cidade  
 
+        //Operação para atribuir o valor do novo atributo Super Poder da C1
+        //Super_poder_C1 = (float)populacao + area + pib + (float)p_turisticos + pib_percapita + (1 / densidade_pop)
+    super_poder_C1 = (float)populacao_C1 + area_C1 + pib_C1 + pib_percapita_C1 + (float)p_turistico_C1 + (1 / densidade_pop_C1);
+
 // Saída de dados C1
 // Imprimindo as informações cadastradas para C1
     printf("Carta 1\n\n");
@@ -93,6 +97,10 @@ int main() {
     pelo usuário na entrada de dados C2*/
     densidade_pop_C2 = (float)populacao_C2 / area_C2; //densidade populacional = população da cidade / área da cidade
     pib_percapita_C2 = pib_C2/ (float)populacao_C2; //pib per capita = pib da cidade / população da cidade
+
+        //Operação para atribuir o valor do novo atributo Super Poder da C2
+        //Super_poder_C2 = (float)populacao + area + pib + (float)p_turisticos + pib_percapita + (1 / densidade_pop)
+    super_poder_C2 = (float)populacao_C2 + area_C2 + pib_C2 + pib_percapita_C2 + (float)p_turistico_C2 + (1 / densidade_pop_C2);
 
 // Saída de dados C2
 // Imprimindo as informações cadastradas para C2
