@@ -120,6 +120,10 @@ int main() {
         //Inclusão da impressão da nova variável da C2 (Super Poder)
     printf("Super Poder: %.2f\n", super_poder_C2); 
     printf("--------------------------------\n");
-    
+
+        //Comparação atributo por atributo da C1 com a C2
+        //Definição de variáveis para obter o resultado (res) em booleano (1=Verdadeiro / 0=Falso) da comparação de cada atributo
+    int res_populacao, res_area, res_pib, res_p_turistico, res_densidade_pop, res_pib_percapita, res_super_poder;
+
     return 0;
 }
