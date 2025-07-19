@@ -11,11 +11,12 @@ int main() {
     printf("--------------------\n");
 
 // Declarando as variáveis para a C1 
-    // Inclusão de 2 novas variáveis para as 2 novas propriedades na C1 (Densidade Populacional e Pib per Capita)
+    // Inclusão de 2 novas variáveis para os 2 novos atributos na C1 (Densidade Populacional e Pib per Capita)
+        //Inclusão nova variável para novo atributo na C1 (Super Poder)
     char estado_C1, codigo_C1[10], cidade_C1[50];
     int p_turistico_C1;
     unsigned long int populacao_C1; // Modificação do tipo da variável (int -> unsigned long int)
-    float area_C1, pib_C1, densidade_pop_C1, pib_percapita_C1; // Novas variáveis
+    float area_C1, pib_C1, densidade_pop_C1, pib_percapita_C1, super_poder_C1; // Novas variáveis
 
 // Entrada de dados C1
 // Solicitando ao usuário que insira as informações para cadastro da C1
@@ -62,11 +63,12 @@ int main() {
     printf("--------------------\n");
 
 // Declarando as variáveis para a C2
-    // Inclusão de 2 novas variáveis para as 2 novas propriedades na C2 (Densidade Populacional e Pib per Capita)
+    // Inclusão de 2 novas variáveis para os 2 novos atributos na C2 (Densidade Populacional e Pib per Capita)
+        //Inclusão nova variável para novo atributo na C2 (Super Poder)
     char estado_C2, codigo_C2[10], cidade_C2[50];
     int p_turistico_C2;
     unsigned long int populacao_C2; // Modificação do tipo da variável (int -> unsigned long int)
-    float area_C2, pib_C2, densidade_pop_C2, pib_percapita_C2; // Novas variáveis
+    float area_C2, pib_C2, densidade_pop_C2, pib_percapita_C2, super_poder_C2; // Novas variáveis
 
 // Entrada de dados C2
 // Solicitando ao usuário que insira as informações para cadastro da C2
