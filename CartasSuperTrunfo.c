@@ -121,9 +121,26 @@ int main() {
     printf("Super Poder: %.2f\n", super_poder_C2); 
     printf("--------------------------------\n");
 
-        //Comparação atributo por atributo da C1 com a C2
+    //Comparação atributo por atributo da C1 e C2
         //Definição de variáveis para obter o resultado (res) em booleano (1=Verdadeiro / 0=Falso) da comparação de cada atributo
     int res_populacao, res_area, res_pib, res_p_turistico, res_densidade_pop, res_pib_percapita, res_super_poder;
+
+        //Comparação entre os atributos das cartas C1 e C2 (res = 1 -> lógica verdadeira / res = 0 -> lógica falsa)
+    res_populacao = populacao_C1 > populacao_C2;
+    printf("%d\n", res_populacao);
+    res_area = area_C1 > area_C2;
+    printf("%d\n", res_area);
+    res_pib = pib_C1 > pib_C2;
+    printf("%d\n", res_pib);
+    res_p_turistico = p_turistico_C1 > p_turistico_C2;
+    printf("%d\n", res_p_turistico);
+    res_densidade_pop = densidade_pop_C1 < densidade_pop_C2;
+    printf("%d\n", res_densidade_pop);
+    res_pib_percapita = pib_percapita_C1 > pib_percapita_C2;
+    printf("%d\n", res_pib_percapita);
+    res_super_poder = super_poder_C1 > super_poder_C2;
+    printf("%d\n", res_super_poder);
+    printf("--------------------------------\n");
 
     return 0;
 }
