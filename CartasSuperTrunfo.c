@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    printf("-----------------------------------\n");
-    printf("   Desafio Super Trunfo - Países   \n");
-    printf("        Cadastro das Cartas        \n");
-    printf("-----------------------------------\n");
+    printf("--------------------------------------------------------------\n");
+    printf("                    DESAFIO SUPER TRUNFO                      \n");
+    printf("--------------------------------------------------------------\n");
+    printf("--------------------------------------------------------------\n");
+    printf("*****                CADASTRO DAS CARTAS                 *****\n");
+    printf("--------------------------------------------------------------\n");
     
 //Cadastramento Carta 1 (C1)
-    printf("Carta 1\n");
-    printf("--------------------\n");
+    printf("CARTA 1\n\n");
 
 // Declarando as variáveis para a C1 
     // Inclusão de 2 novas variáveis para os 2 novos atributos na C1 (Densidade Populacional e Pib per Capita)
@@ -34,7 +35,8 @@ int main() {
     scanf("%f", &pib_C1);
     printf("Insira o número de pontos turísticos da cidade: \n");
     scanf("%d", &p_turistico_C1);
-    printf("--------------------\n");
+    printf("--------------------------------------------------------------\n");
+    printf("--------------------------------------------------------------\n");
 
     // Operações para atribuir os valores das novas variáveis da C1 (densidade_pop_C1 e pib_percapita_C1)
     /* As informações necessárias para calcular a densidade populacional e o pib per capita já foram inseridas
@@ -48,7 +50,8 @@ int main() {
 
 // Saída de dados C1
 // Imprimindo as informações cadastradas para C1
-    printf("Carta 1\n\n");
+    printf("CARTA 1\n");
+    printf("-------\n\n");
     printf("Estado: %c\n", estado_C1);
     printf("Códido: %s\n", codigo_C1);
     printf("Nome da cidade: %s\n", cidade_C1);
@@ -61,12 +64,11 @@ int main() {
     printf("PIB per Capita: R$ %.2f\n", pib_percapita_C1);
         //Inclusão da impressão da nova variável da C1 (Super Poder)
     printf("Super Poder: %.2f\n", super_poder_C1);
-    printf("---------------------------------\n");
-    printf("---------------------------------\n");
+    printf("--------------------------------------------------------------\n");
+    printf("--------------------------------------------------------------\n");
 
 //Cadastramento Carta 2 (C2)
-    printf("Carta 2\n");
-    printf("--------------------\n");
+    printf("CARTA 2\n\n");
 
 // Declarando as variáveis para a C2
     // Inclusão de 2 novas variáveis para os 2 novos atributos na C2 (Densidade Populacional e Pib per Capita)
@@ -92,7 +94,8 @@ int main() {
     scanf("%f", &pib_C2);
     printf("Insira o número de pontos turísticos da cidade: \n");
     scanf("%d", &p_turistico_C2);
-    printf("--------------------\n");
+    printf("--------------------------------------------------------------\n");
+    printf("--------------------------------------------------------------\n");
 
     // Operações para atribuir os valores das novas variáveis da C2 (densidade_pop_C2 e pib_percapita_C2)
     /* As informações necessárias para calcular a densidade populacional e o pib per capita já foram inseridas
@@ -106,7 +109,8 @@ int main() {
 
 // Saída de dados C2
 // Imprimindo as informações cadastradas para C2
-    printf("Carta 2\n\n");
+    printf("CARTA 2\n");
+    printf("-------\n\n");
     printf("Estado: %c\n", estado_C2);
     printf("Códido: %s\n", codigo_C2);
     printf("Nome da cidade: %s\n", cidade_C2);
@@ -119,7 +123,9 @@ int main() {
     printf("PIB per Capita: R$ %.2f\n", pib_percapita_C2);
         //Inclusão da impressão da nova variável da C2 (Super Poder)
     printf("Super Poder: %.2f\n", super_poder_C2); 
-    printf("--------------------------------\n");
+    printf("--------------------------------------------------------------\n");
+    printf("--------------------------------------------------------------\n");
+
 
     //Comparação atributo por atributo da C1 e C2
         //Definição de variáveis para obter o resultado (res) em booleano (1=Verdadeiro / 0=Falso) da comparação de cada atributo
@@ -140,7 +146,22 @@ int main() {
     printf("%d\n", res_pib_percapita);
     res_super_poder = super_poder_C1 > super_poder_C2;
     printf("%d\n", res_super_poder);
-    printf("--------------------------------\n");
+    printf("--------------------------------------------------------------\n");
+    printf("--------------------------------------------------------------\n");
+
+        //Saída de dados
+        //Impressão da comparação emtre os atributos da C1 e C2
+    printf("*****   COMPARAÇÃO ENTRE OS ATRIBUTOS DAS CARTAS 1 E 2   *****\n");
+    printf("--------------------------------------------------------------\n");
+    printf("POPULAÇÃO -> Carta 1 venceu(%d)\n", res_populacao);
+    printf("ÁREA -> Carta 1 venceu(%d)\n", res_area);
+    printf("PIB -> Carta 1 venceu(%d)\n", res_pib);
+    printf("PONTOS TURÍSTICOS -> Carta 1 venceu(%d)\n", res_p_turistico);
+    printf("DENSIDADE POPULACIONAL -> Carta 2 venceu(%d)\n", res_densidade_pop);
+    printf("PIB PER CAPITA -> Carta 1 venceu(%d)\n", res_pib_percapita);
+    printf("SUPER PODER -> Carta 1 venceu(%d)\n", res_super_poder);
+    printf("--------------------------------------------------------------\n");
+    printf("--------------------------------------------------------------\n");
 
     return 0;
 }
